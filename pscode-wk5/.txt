@@ -56,5 +56,41 @@ NumAvg{
 return "The Average of the 5 numbers is {NumAvg}"
 
 One way we could check to see which number is the Samllest  and the Largest is to
-compare the value of each against eachother of with if else
+compare the value of each against eachother of with  else/if staments so the
+function would look like this for the maximum
+
+if { Num1>Num2&&Num1>Num3&&Num1>Num4&&Num1>Num5
+     return({Num1} is the largest number!)
+     }
+  else  if { Num2>Num1&&Num2>Num3&&Num2>Num4&&Num2>Num5
+         return({Num2} is the largest Number!)
+  } 
+   else  if { Num3>Num1&&Num3>Num2&&Num3>Num4&&Num3>Num5
+         return({Num3} is the largest Number!)
+  } 
+  else  if { Num4>Num1&&Num4>Num2&&Num4>Num3&&Num4>Num5
+         return({Num4} is the largest Number!)
+  } 
+  else  if { Num5>Num1&&Num5>Num2&&Num5>Num3&&Num5>Num4
+         return({Num5} is the largest Number!)
+  } 
+
+And this for the minimum
+
+if { Num1<Num2&&Num1<Num3&&Num1<Num4&&Num1<Num5
+     return({Num1} is the smallest number!)
+     }
+  else  if { Num2<Num1&&Num2<Num3&&Num2<Num4&&Num2<Num5
+         return({Num2} is the smallest Number!)
+  } 
+   else  if { Num3<Num1&&Num3<Num2&&Num3<Num4&&Num3<Num5
+         return({Num3} is the smallest Number!)
+  } 
+  else  if { Num4<Num1&&Num4<Num2&&Num4<Num3&&Num4<Num5
+         return({Num4} is the smallest Number!)
+  } 
+  else  if { Num5<Num1&&Num5<Num2&&Num5<Num3&&Num5<Num4
+         return({Num5} is the smallest  Number!)
+  } 
+
 -- END --
