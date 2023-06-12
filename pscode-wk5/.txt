@@ -2,12 +2,12 @@
 
 (Your pseudocode here)
 
-Variables Would be Num1 and Num2
+Variables Would be Num1 and Num2 and NumSum (what those two numbers equal)
 
-so the function would be
+so the function would be something like
 
 Add2numbers {    
-    Num1+Num2   
+    Num1+Num2  == NumSum 
                     } 
 
 // Exercise 2: Check if a Number is Even or Odd
@@ -17,10 +17,14 @@ To check if a number is even or odd we can see if it
 is divisible by two. If so it is. If we divide and there is a remainder we
 know its not.
 
-so the function would be
+so the function would be something like
 
-Checkeven{\\\
+Checkeven{
+    if Num/2==%0
+     Num is Even
+    else Num is Odd 
 }
+
 
 
 // Exercise 3: 
@@ -33,4 +37,24 @@ d) Write out the results found from steps b and c with a message describing what
 
 (Your pseudocode here)
 
+The Variables here would be
+ Num1 Num2 Num3 Num4 Num5
+and what they add up To
+NumSum
+and what they are divided by 5
+NumAvg
+
+To fund the average of the 5 numbers we would add them and divide by 5
+
+so the function for that is something like
+  User Inputs 5 Numbers
+
+NumAvg{
+    Num1+Num2+Num3+Num4+Num5=NumSum
+    NumSum/5
+}
+return "The Average of the 5 numbers is {NumAvg}"
+
+One way we could check to see which number is the Samllest  and the Largest is to
+compare the value of each against eachother of with if else
 -- END --
